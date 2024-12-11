@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+	background-image: url('https://cdn.pixabay.com/photo/2022/11/06/10/54/clock-7573739_1280.jpg'); /* Replace with your image URL */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+	padding-right: 50px;
+}
+
+.stopwatch {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+	background-color: #93C572;
+}
+
+#laps {
+    margin-top: 20px;
+}
+
+#lapList {
+    list-style-type: none;
+	text-align:center;
+   
+}
+
+
+
